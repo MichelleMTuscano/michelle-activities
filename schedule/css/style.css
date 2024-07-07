@@ -1,0 +1,40 @@
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    background-color: #e6e6e6;
+    padding: 10px;
+}
+
+.grid-item {
+    background-color: #f0f0f0;
+    border: 1px solid #333;
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.item1 {
+    grid-column-start: 1;
+    grid-column-end: 7;
+}
+
+/* Rows */
+.a7, .a13, .a19, .a21, .a27, .a31, .a34 {
+    grid-row-start: 2;
+    grid-row-end: 3;
+}
+
+.a8, .a14, .a22, .a28, .a32, .a35 {
+    grid-row-start: 3;
+    grid-row-end: 4;
+}
+
+.a9, .a10, .a11, .a12, .a15, .a23, .a24, .a25, .a26, .a29, .a30, .a33, .a36 {
+    grid-row-start: 4;
+    grid-row-end: 5;
+}
+
+.a16, .a17, .a18, .a20 {
+    grid-row-start: 5;
+    grid-row-end: 6;
+}
